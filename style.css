@@ -42,3 +42,36 @@ body {
     background-position: right;
     margin: 0;
 }
+
+.experiance {
+    display: flex;
+}
+
+.exp h1 {
+    margin-left: 20px;
+}
+
+.web-dev {
+    width: 40%;
+    box-shadow: 20px 20px 40px gray;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#junior {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, yellow);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+}
