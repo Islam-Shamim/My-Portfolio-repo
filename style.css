@@ -10,10 +10,12 @@ span {
 body {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 .container {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .half {
@@ -31,4 +33,12 @@ body {
     background-image: linear-gradient(orange, yellow);
     padding: 10px 20px;
     border-radius: 10px;
+}
+
+.dream-big {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
 }
